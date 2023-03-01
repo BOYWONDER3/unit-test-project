@@ -1,0 +1,23 @@
+{
+  "name": "unit-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Account.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOYWONDER3/unit-test-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BOYWONDER3/unit-test-project/issues"
+  },
+  "homepage": "https://github.com/BOYWONDER3/unit-test-project#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
