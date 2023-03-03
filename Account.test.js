@@ -39,7 +39,19 @@ describe('#withdraw', () => {
     })
 
     describe('with not enough money in the account', () => {
+        test('it should throw an error', async () => {
+            const startingBalance = 5
+        const amount = 10
         
+        const account = await createAccount('kyle', startingBalance)
+
+        const spy = jest.spyOn(FileSystem, 'write')
+        await expect(account.withdraw(amount)).rejects.toThrow()
+
+        expect(account.balance).toBe(startingBalance)
+        
+        expect(spy).not.toBeCalledWith()
+        })
     })
 })
 
