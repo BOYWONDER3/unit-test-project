@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1677660689726" clover="3.2.0">
-  <project timestamp="1677660689727" name="All files">
-    <metrics statements="10" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0" elements="20" coveredelements="2" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+<coverage generated="1677801398319" clover="3.2.0">
+  <project timestamp="1677801398319" name="All files">
+    <metrics statements="31" coveredstatements="15" conditionals="6" coveredconditionals="0" methods="14" coveredmethods="6" elements="51" coveredelements="21" complexity="0" loc="31" ncloc="31" packages="1" files="2" classes="2"/>
+    <file name="Account.js" path="C:\Users\User\Desktop\unit test project\Account.js">
+      <metrics statements="21" coveredstatements="13" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="6"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="20" count="3" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="55" count="0" type="stmt"/>
+    </file>
     <file name="FileSystem.js" path="C:\Users\User\Desktop\unit test project\FileSystem.js">
       <metrics statements="10" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <line num="1" count="1" type="stmt"/>
